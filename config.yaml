@@ -1,0 +1,14 @@
+# Config for dataset.
+
+# Config for d3plot related stuff.
+
+# Config for matplotlib plots.
+matplotlib:
+  font:
+    family: 'Times New Roman'  # You can change this to 'sans-serif', 'monospace', etc.
+    size: 12          # Set the base font size (in points)
+  figure:
+    full_page:
+      figsize: [8.27, 11.69]  # Full A4 size in inches (width, height)
+    half_page:
+      figsize: [8.27 / 2, 11.69]  # Half A4 width in inches (width, height)
