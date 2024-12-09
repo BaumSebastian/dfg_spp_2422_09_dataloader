@@ -1,6 +1,9 @@
 # For LS dyna
 lspost*
 
+# For documentation
+docs/scripts/*
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
