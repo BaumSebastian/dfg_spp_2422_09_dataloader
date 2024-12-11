@@ -10,11 +10,10 @@ if __name__ == "__main__":
     # Get the config  
     config = load_config(config_file_path)
     dataset_config = config['dataset']
-    print(dataset_config)
     base_dir = dataset_config['base_dir']
-    geometries = dataset_config['geometries']
 
     # Specify what you want to load.
+    geometries = ['blank']
     timesteps = [0, -1]
     load_type = LoadType.NODES_AND_FEATURES
 
