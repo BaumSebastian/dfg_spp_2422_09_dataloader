@@ -1,4 +1,11 @@
 import numpy as np
+import yaml
+
+# Function to load the configuration from a YAML file
+def load_config(file_path):
+    with open(file_path, 'r') as file:
+        config = yaml.safe_load(file)
+    return config
 
 def triangulation(quads: np.array) -> np.array:
     """
