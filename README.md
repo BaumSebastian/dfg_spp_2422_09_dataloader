@@ -24,6 +24,8 @@ The aim of this project is the development of a novel design method for active s
 
 ## Data
 
+![sample simulation](docs/images/simulation.gif)
+
 // Insert Data Explaination
 
 ## Installation
