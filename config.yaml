@@ -1,6 +1,7 @@
 # Config for dataset.
-
-# Config for d3plot related stuff.
+dataset:
+- geometries: ['blank', 'binder', 'punch', 'die']
+- datatype: 'numpy'
 
 # Config for matplotlib plots.
 matplotlib:
