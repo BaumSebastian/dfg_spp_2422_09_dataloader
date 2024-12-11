@@ -2,6 +2,7 @@
 dataset:
 - geometries: ['blank', 'binder', 'punch', 'die']
 - datatype: 'numpy'
+- base_dir: "/your/path/to/dataset"
 
 # Config for matplotlib plots.
 matplotlib:
