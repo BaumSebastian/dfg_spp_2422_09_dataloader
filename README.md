@@ -1,21 +1,26 @@
-# Dataloader DFG SPP2422 Teilprojekt 09
+# Dataloader DFG SPP2422 Subproject 09
 
-A brief description of your project, including its purpose and significance in the field of study.
+This is a dataloader implementation for the dataset published as part of the subproject "Robust active surface design for multi-stage sheet metal forming processes based on data- and calculation-based equivalent modelling of component springback" ([Link](https://www.ifu.uni-stuttgart.de/en/spp-2422/teilprojekte/page-00004/)).
 
 ## Table of Contents
 
-- [Dataloader DFG SPP2422 Teilprojekt 09](#dataloader-dfg-spp2422-teilprojekt-09)
+- [Dataloader DFG SPP2422 Subproject 09](#dataloader-dfg-spp2422-subproject-09)
   - [Table of Contents](#table-of-contents)
   - [Introduction](#introduction)
+  - [Data](#data)
   - [Installation](#installation)
   - [Usage](#usage)
-  - [Data](#data)
   - [License](#license)
   - [Contact](#contact)
+  - [Acknowledgements](#acknowledgements)
 
 ## Introduction
 
-Provide a detailed introduction to your project. Explain the problem you are addressing, the motivation behind your research, and any relevant background information. Include references to related work if applicable.
+// Insert Introduction
+
+## Data
+
+// Insert Data Explaination
 
 ## Installation
 
@@ -23,7 +28,7 @@ Instructions on how to install the necessary software and dependencies to run yo
 
 1. **Clone the repository:**
 ```bash
-git clone https://github.com/username/repository.git
+git clone https://github.com/BaumSebastian/dfg_spp_2422_09_dataloader/
 cd repository
 ```
 
@@ -33,32 +38,14 @@ pip install -r requirements.txt
 ```
 
 ## Usage
-Provide examples of how to use your project. This may include code snippets, command-line instructions, or screenshots. Be sure to explain the input parameters and expected outputs.
 
-```python
-# Example code snippet
-import your_module
-
-result = your_module.function_name(parameters)
-print(result)
-```
-
-## Data
-Describe the data used in your research. Include information on how to access the data, any preprocessing steps taken, and any relevant citations for the data sources.
-
-Data Source: [Link to dataset or repository]
-Description: Brief description of the dataset.
-Preprocessing: Any preprocessing steps applied to the data.
+// Inmplement example notebook.
 
 ## License
-Specify the license under which your project is distributed. For example:
-This project is licensed under the MIT License - see the LICENSE file for details.
-
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Contact
-Provide your contact information for readers who may have questions or wish to discuss your work further. This may include:
+If you have any questions, simply get in touch with me using the following [contact details](https://www.ias.uni-stuttgart.de/institut/team/Baum-00001/)
 
-Your name
-Email address
-Institutional affiliation
-Links to your professional profiles (e.g., LinkedIn, ResearchGate)
+## Acknowledgements  
+The authors gratefully acknowledge the financial support provided by the project “Robust active surface design for multi-stage sheet metal forming processes based on data- and computation-driven surrogate modelling of springback behavior” as part of [DFG Project SPP 2422: “Data-driven process modelling in metal forming technology”](https://www.ifu.uni-stuttgart.de/en/spp-2422/) (ID: DFG - 500936349) with Spokesman Prof. Dr.-Ing. Mathias Liewald MBA
