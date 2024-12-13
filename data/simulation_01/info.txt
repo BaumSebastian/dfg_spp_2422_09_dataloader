@@ -1,2 +1,0 @@
-Geometry_Parameters: [['Corner Radius', '40'], ['Bottom Radius', '10'], ['Part Wall Angle', '20']]
-Material and Process Parameters: [['MAT', '0.925'], ['FC', '0.15'], ['SHTK', '1.0'], ['BF', '150000.0']]
