@@ -2,4 +2,4 @@
 dataset:
   geometries: ['blank', 'binder', 'punch', 'die']
   datatype: 'numpy'
-  base_dir: 'C:\\Users\\ac142464\\Documents\\DFG\\New folder\\dataset'
+  base_dir: '/your/path/to/dataset'
