@@ -1,5 +1,9 @@
 # Config for dataset.
 dataset:
-  geometries: ['blank', 'binder', 'punch', 'die']
-  datatype: 'numpy'
   base_dir: '/your/path/to/dataset'
+  datatype: numpy
+  geometries:
+  - blank
+  - binder
+  - punch
+  - die
