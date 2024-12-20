@@ -7,7 +7,6 @@ import pandas as pd
 from typing import Optional, Union
 
 
-
 class LoadType(Enum):
     NODES = "nodes"
     NODES_AND_FEATURES = "nodes_and_features"
@@ -150,19 +149,3 @@ class FEMGraphDataset(Dataset):
             "nodes": torch.tensor(nodes, dtype=torch.float32),
             "edge_features": torch.tensor(edge_features, dtype=torch.float32),
         }
-
-
-# Example Usage
-if __name__ == "__main__":
-    dataset = FEMGraphDataset(
-        base_dir=r"/your/path/to/dataset",
-        geometries=None,  # Replace with actual IDs
-        timestep=[0,-1],
-        load_type=LoadType.NODES_AND_FEATURES
-    )
-
-    print("Dataset size:", len(dataset))
-    sample = dataset[0]
-    print("Sample keys:", sample.keys())
-    print("Nodes shape:", sample["nodes"].shape)
-    print("Edge features shape:", sample["edge_features"].shape)
