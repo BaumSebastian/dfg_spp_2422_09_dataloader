@@ -1,5 +1,0 @@
-# Config for dataset.
-dataset:
-  geometries: ['blank', 'binder', 'punch', 'die']
-  datatype: 'numpy'
-  base_dir: 'C:\\Users\\ac142464\\Documents\\DFG\\New folder\\dataset'
