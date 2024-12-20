@@ -8,6 +8,8 @@ This is a dataloader implementation for the dataset published as part of the sub
   - [Table of Contents](#table-of-contents)
   - [Introduction](#introduction)
   - [Data](#data)
+    - [Geometric Parameters](#geometric-parameters)
+    - [Material Parameter](#material-parameter)
   - [Installation](#installation)
   - [Usage](#usage)
     - [Dataset Structure](#dataset-structure)
@@ -24,9 +26,34 @@ The aim of this project is the development of a novel design method for active s
 
 ## Data
 
+The dataset contains 5338 simulation, where each simulation consists of 4 geometries:
+-  Blank
+-  Die
+-  Punch
+-  Holder
+
+// Image of simulation.
+
+The simulation has three time steps and displays the movement of each geometry. While Die, Punch and Holder is only represented as point cloud, the Blank contains additional features.
+The features are:
+- Thickness
+- Strain
+- Misses Stress
+
 ![sample simulation](docs/images/simulation.gif)
 
-// Insert Data Explaination
+Next to this, there are metadata stored for each simulation. The metadata is seperated into two differnt types of values:
+
+- Geometric Parameters
+- Material Parameters
+
+### Geometric Parameters
+The geometric parameters are constant for all simulations. The geometric paramters are the first three columns of the met
+// Insert Image
+
+### Material Parameter
+While the geometric Parameters are constant for all simulations, the material aprameters differ and refer to following parameters:
+
 
 ## Installation
 
