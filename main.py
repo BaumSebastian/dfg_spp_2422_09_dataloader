@@ -25,7 +25,10 @@ if __name__ == "__main__":
         load_type=load_type
     )
 
+    # Total information
     print("Dataset size:", len(dataset))
+    
+    # Information per simulation.
     sample = dataset[0]
     print("Sample keys:", sample.keys())
     print("Nodes shape:", sample["nodes"].shape)
