@@ -1,7 +1,6 @@
 # Config for dataset.
 dataset:
-  base_dir: '/your/path/to/dataset'
-  datatype: numpy
+  base_dir: './data'
   geometries:
   - blank
   - binder
